@@ -32,7 +32,7 @@ console.log(results);
 objects=results;
 }
 function draw(){
-    image(video,0,0,400,50);
+    image(video,0,0,650,400);
    // console.log(status1);
     if(status1=="true"){
         fill("#ff0000");
