@@ -7,11 +7,11 @@ function preload(){
 }
 
 function setup(){
-    canvas=createCanvas(350,400);
+    canvas=createCanvas(650,400);
     canvas.position(400,150);
     video=createCapture(VIDEO);
     //
-    video.size(350,400)
+    video.size(650,400)
     video.hide();
     object_detector=ml5.objectDetector("cocossd",modelLoaded);
     document.getElementById("status").innerHTML="Status = Detecting Object";
